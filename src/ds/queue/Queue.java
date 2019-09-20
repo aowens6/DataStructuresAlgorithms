@@ -18,7 +18,7 @@ public class Queue {
 
   public void insert (long j){
 
-    //OUT OF BOUNDS handling --- CIRCULAR QUEUE, ends up over writing from beginning
+    //OUT OF BOUNDS handling --- CIRCULAR QUEUE, ends up overwriting from beginning
     if (rear == maxSize-1){//we are at the end of the array
       rear = -1; // goes back to the beginning of the array
     }
